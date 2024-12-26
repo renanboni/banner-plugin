@@ -1,3 +1,5 @@
+import { defineRouteConfig } from "@medusajs/admin-sdk";
+import {StackPerspective} from "@medusajs/icons";
 
 const BannersPage = () => {
     return (
@@ -6,3 +8,8 @@ const BannersPage = () => {
 }
 
 export default BannersPage;
+
+export const config = defineRouteConfig({
+    label: "Banners",
+    icon: StackPerspective,
+})
