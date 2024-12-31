@@ -1,5 +1,5 @@
 import { defineRouteConfig } from "@medusajs/admin-sdk";
-import {StackPerspective} from "@medusajs/icons";
+import { StackPerspective } from "@medusajs/icons";
 
 const BannersPage = () => {
     return (
